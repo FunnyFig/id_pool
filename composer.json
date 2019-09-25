@@ -1,0 +1,22 @@
+{
+    "name": "funnyfig/id_pool",
+    "description": "simple integer id pool",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["id", "pool"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoo, Taihyung",
+            "email": "th.yoo@brainboot.kr"
+        }
+    ],
+    "require": {
+	    "php": ">=7.0"
+    },
+    "autoload": {
+	    "psr-4": {
+		    "FunnyFig\\": "."
+	    }
+    }
+}
